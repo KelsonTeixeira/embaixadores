@@ -1,0 +1,150 @@
+*{/*reseta tudo*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(image/back.jpg);
+}
+.logo{
+    float: left;
+    height: 50px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+h1{
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 25vh;
+    color: #fff;
+}
+h1:after {
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    width: 22vw;
+    background-color: orange;
+    content: " ";
+    margin-top: 10px;
+}
+h1:before {
+    display: block;
+    height: 2px;
+    margin: 0 auto;
+    width: 22vw;
+    background-color: orange;
+    content: " ";
+    margin-bottom: 10px;
+}
+p{    
+    font-size: 100%;
+    text-align: justify;
+    word-spacing: 4px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.sobre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sobre img{
+    height: 150px;
+    width: auto;  
+}
+h3{
+    text-align: center;
+}
+li{
+    color: #fff;
+    text-align: justify;
+    font-size: 100%;
+    text-align: justify;
+    word-spacing: 4px;
+    color: #fff;
+    margin-top: 20px;
+}
+.frame{
+    margin-top: 30px;
+    padding: 40px 60px;
+    border: 2px solid #fff;
+}
+.social{
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    
+}
+.social img{
+    height: 30px;
+    width: auto;
+    margin: 0 15px;
+    padding: 2px;
+    border: transparent;
+}
+.social img:hover,
+.social img:active{
+    border: 1px solid #fff;
+}
+/*------------portifolio-----------*/
+.portifolio {
+    padding: 0;
+    margin-top: 20px;
+}
+.portifolio h3{
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.portifolio h3:before{
+    display: block;
+    height: 2px;
+    width: 350px;;
+    background-color: #000;
+    content: " ";
+    margin: 0 auto 5px auto;
+}
+
+.portifolio h3:after{
+    display: block;
+    height: 2px;
+    width: 350px;;
+    background-color: #000;
+    content: " ";
+    margin: 5px auto 20px; auto;
+}
+.row {
+    list-style: none;
+    width: 100%;
+}
+.portifolio li {
+    float: left;
+    display: block;
+    width: 25%;
+}
+}
+.fotos {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.fotos img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.2s;
+}
+.fotos img:hover{
+    transform: scale(1.1);
+}
